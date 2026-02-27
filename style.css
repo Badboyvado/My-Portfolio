@@ -116,17 +116,19 @@ body {
   text-decoration: none;
   transition: all var(--transition);
   display: inline-block;
+  font-weight: 600;
 }
 
 .btn-primary {
-  background: var(--white);
+  background: transparent;
   color: var(--primary-color);
   border-color: var(--white);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px;
+ background: var(--white);
+  color: var(--primary-color);
 }
 
 .btn-secondary {
@@ -140,6 +142,9 @@ body {
   transform: translateY(-3px);
 }
 
+.btn:hover{
+opacity:  0.85;
+}
 /* PROJECTS Section */
 .projects {
   padding: 5rem;
@@ -450,3 +455,4 @@ body {
     font-size: 1rem;
   }
 }
+
