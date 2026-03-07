@@ -159,7 +159,7 @@ body {
   text-align: center;
 }
 
-.projects-grid {
+.project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -342,9 +342,14 @@ body {
 
 .contact-methods {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  /* box-sizing: border-box; */
 }
+/* .contact-methods input {
+  width: 100%;
+  box-sizing: border-box;
+} */
 
 .contact-card {
   background: var(--light-bg);
@@ -433,10 +438,10 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .projects-grid,
+  .project-grid,
   .skills-grid,
   .contact-methods {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
