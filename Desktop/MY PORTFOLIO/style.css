@@ -159,7 +159,7 @@ body {
   text-align: center;
 }
 
-.projects-grid {
+.project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -270,6 +270,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .stat {
   text-align: center;
   padding: 1rem;
@@ -305,6 +306,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
+
 .skill-item {
   background: white;
   padding: 2rem;
@@ -433,10 +435,10 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .projects-grid,
+  .project-grid,
   .skills-grid,
   .contact-methods {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
