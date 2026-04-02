@@ -18,9 +18,9 @@ https://365badboy.name.ng/
 - Clean and modern UI design
   
 ## 🧑‍💻Technologies Used
--HTML5
--CSS3 (Grid, Animations, Responsive design, Media queries (big & smaller device)
--Vanilla JavaScript
+- HTML5
+- CSS3 (Grid, Animations, Responsive design, Media queries (big & smaller device)
+- Vanilla JavaScript
 
 ## 🚀Getting Started 
 1. Clone the repo git clone (https://github.com/Badboyvado/My-Portfolio.git)
@@ -38,7 +38,7 @@ The goal of this portfolio is to present my work, demostrate my frontend develop
 
 ## 👩‍✈️Author 
 Habeeb Taiwo
-Frontend Developerr
+Frontend Developer
 - GitHub: @Badboyvado
 - Portfolio: 365badboy.name.ng
 - Instagram: Badboy_vado
