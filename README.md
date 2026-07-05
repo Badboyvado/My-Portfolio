@@ -19,7 +19,7 @@ https://365badboy.name.ng/
   
 ## 🧑‍💻Technologies Used
 - HTML5
-- CSS3 (Grid, Animations, Responsive design, Media queries (big & smaller device)
+- CSS3 (Grid, Animations, Responsive design, Media queries (big & smaller device))
 - Vanilla JavaScript
 
 ## 🚀Getting Started 
